@@ -36,10 +36,10 @@ driver.maximize_window()
 time.sleep(1)
 username = driver.find_element_by_css_selector(
     "#slideOutPanel > div.pageContainer > div > div.inline_form_box_content > div > form > div.creds > input[type=text]"
-    ":nth-child(1)").send_keys("canerflz@gmail.com")
+    ":nth-child(1)").send_keys("username or mail adress")
 password = driver.find_element_by_css_selector(
     "#slideOutPanel > div.pageContainer > div > div.inline_form_box_content > div > form > div.creds > input[type=pass"
-    "word]:nth-child(2)").send_keys("Caner1997.")
+    "word]:nth-child(2)").send_keys("password")
 driver.find_element_by_css_selector("#slideOutPanel > div.pageContainer > div > div.inline_form_box_content > div > "
                                     "form > button").click()
 print("User login is succesful!")
